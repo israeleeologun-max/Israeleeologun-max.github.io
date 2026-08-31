@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Israelee — Web3 Motion & Visual Storytelling</title>
+  <meta name="description" content="Israelee (Temi) — Web3 motion graphics, visual storytelling and digital marketing. Helping creators and protocols simplify complex ideas." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Syne:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <canvas id="particles"></canvas>
+  <div class="noise"></div>
+  <div class="scanline"></div>
+
+  <nav class="nav">
+    <a class="logo" href="#top">
+      <span class="logo-mark">I</span>
+      <span class="logo-text">ISRAELEE</span>
+    </a>
+    <button class="nav-toggle" aria-label="Menu">
+      <span></span><span></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="#work">Work</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact" class="nav-cta">Let’s talk</a></li>
+    </ul>
+  </nav>
+
+  <header id="top" class="hero">
+    <div class="hero-orb hero-orb-1"></div>
+    <div class="hero-orb hero-orb-2"></div>
+
+    <div class="hero-copy">
+      <p class="eyebrow fade-up">
+        <span class="pulse-dot"></span>
+        Web3 · Motion · Visual Storytelling
+      </p>
+      <h1 class="hero-title">
+        <span class="line"><span>Complex ideas.</span></span>
+        <span class="line accent"><span>Simple motion.</span></span>
+      </h1>
+      <p class="hero-sub fade-up">
+        I’m <strong>Israelee</strong> — Temi. I help Web3 protocols and creators
+        turn dense narratives into frames people actually feel.
+      </p>
+      <div class="hero-actions fade-up">
+        <a href="#work" class="btn btn-primary">
+          <span>View work</span>
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        </a>
+        <a href="https://x.com/Isreal_ee" target="_blank" rel="noopener" class="btn btn-ghost">@Isreal_ee</a>
+      </div>
+      <div class="hero-meta fade-up">
+        <div><span class="meta-num">1.1k+</span><span class="meta-label">CT community</span></div>
+        <div><span class="meta-num">Web3</span><span class="meta-label">native voice</span></div>
+        <div><span class="meta-num">NG</span><span class="meta-label">based · global</span></div>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="avatar-frame">
+        <div class="avatar-ring"></div>
+        <img src="avatar.jpg" alt="Israelee — Temi" class="avatar" />
+        <div class="avatar-tag">TEMI</div>
+      </div>
+      <div class="float-chip chip-1">Motion frames</div>
+      <div class="float-chip chip-2">$HED thread</div>
+      <div class="float-chip chip-3">Solana stories</div>
+    </div>
+  </header>
+
+  <section class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>MOTION GRAPHICS</span><span>WEB3 STORYTELLING</span><span>DIGITAL MARKETING</span><span>COMMUNITY</span><span>VISUAL THREADS</span><span>BRAND FRAMES</span>
+      <span>MOTION GRAPHICS</span><span>WEB3 STORYTELLING</span><span>DIGITAL MARKETING</span><span>COMMUNITY</span><span>VISUAL THREADS</span><span>BRAND FRAMES</span>
+    </div>
+  </section>
+
+  <section id="work" class="section work">
+    <div class="section-head">
+      <p class="eyebrow">Selected work</p>
+      <h2>Hedge Energy — visual thread</h2>
+      <p class="lede">
+        A 9-frame comic narrative that took a DeFi fuel-hedge protocol on Solana
+        and made the problem human: not “token price,” but the man at the pump
+        who just bought uncertainty.
+      </p>
+    </div>
+
+    <article class="featured">
+      <div class="featured-info">
+        <span class="pill">Case study</span>
+        <h3>He Bought Uncertainty</h3>
+        <p>
+          Written and art-directed as a sequential story. Same character,
+          rain-soaked city, rising pump prices — then the hedge.
+          The thread is the motion: panel after panel, tension, then the product.
+        </p>
+        <ul class="tags">
+          <li>Visual storytelling</li>
+          <li>Web3 explainer</li>
+          <li>Character IP</li>
+          <li>Solana</li>
+        </ul>
+        <a class="text-link" href="https://x.com/Isreal_ee/status/2092762637222228132" target="_blank" rel="noopener">
+          Read the thread on X
+          <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M4 12L12 4M6 4h6v6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </div>
+      <div class="featured-grid" id="hedge-grid">
+        <button class="panel" data-src="work1.jpg" data-caption="01 — He bought uncertainty"><img src="work1.jpg" alt="Hedge Energy frame 1" /></button>
+        <button class="panel" data-src="work2.jpg" data-caption="02 — It follows the truck"><img src="work2.jpg" alt="Hedge Energy frame 2" /></button>
+        <button class="panel" data-src="work3.jpg" data-caption="03 — Prepare, don’t hope"><img src="work3.jpg" alt="Hedge Energy frame 3" /></button>
+        <button class="panel" data-src="work4.jpg" data-caption="04 — A safety net, not a crystal ball"><img src="work4.jpg" alt="Hedge Energy frame 4" /></button>
+        <button class="panel" data-src="work5.jpg" data-caption="05 — Hedge Energy on Solana"><img src="work5.jpg" alt="Hedge Energy frame 5" /></button>
+        <button class="panel" data-src="work6.jpg" data-caption="06 — The balloon of risk"><img src="work6.jpg" alt="Hedge Energy frame 6" /></button>
+        <button class="panel" data-src="work7.jpg" data-caption="07 — Decentralized protection"><img src="work7.jpg" alt="Hedge Energy frame 7" /></button>
+        <button class="panel" data-src="work8.jpg" data-caption="08 — Start with the problem"><img src="work8.jpg" alt="Hedge Energy frame 8" /></button>
+        <button class="panel" data-src="work9.jpg" data-caption="09 — Hedge the fuel"><img src="work9.jpg" alt="Hedge Energy frame 9" /></button>
+      </div>
+    </article>
+  </section>
+
+  <section class="section gallery">
+    <div class="section-head">
+      <p class="eyebrow">Character & brand frames</p>
+      <h2>The Temi universe</h2>
+      <p class="lede">
+        A consistent OC — purple hair, TEMI cap, pink jacket — used as a
+        living brand across good-mornings, faith frames, match-day energy
+        and protocol stories.
+      </p>
+    </div>
+    <div class="gallery-grid">
+      <figure class="g-item tall">
+        <img src="brand1.jpg" alt="Morning prayer frame" />
+        <figcaption>Sponsored by grace</figcaption>
+      </figure>
+      <figure class="g-item">
+        <img src="brand2.jpg" alt="Match day frame" />
+        <figcaption>Focus. Create. Repeat.</figcaption>
+      </figure>
+      <figure class="g-item">
+        <img src="avatar.jpg" alt="Israelee portrait" />
+        <figcaption>Signature look</figcaption>
+      </figure>
+      <figure class="g-item wide">
+        <img src="work1.jpg" alt="Hedge station" />
+        <figcaption>Protocol as place</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section id="about" class="section about">
+    <div class="about-grid">
+      <div>
+        <p class="eyebrow">About</p>
+        <h2>Helping creators<br/>simplify complex ideas.</h2>
+        <p>
+          Israelee is a Web3 enthusiast and digital marketer who lives on CT.
+          The work sits at the intersection of community, copy, and cinematic
+          stills that move like motion — sequenced frames, a recurring character,
+          and a voice that starts with the human problem, not the ticker.
+        </p>
+        <p>
+          Based in Nigeria, building in public with protocols that need a story
+          people can hold. If the idea is dense, she makes it walk.
+        </p>
+      </div>
+      <aside class="about-card">
+        <div class="stat">
+          <span class="stat-k">Handle</span>
+          <span class="stat-v">@Isreal_ee</span>
+        </div>
+        <div class="stat">
+          <span class="stat-k">Telegram</span>
+          <span class="stat-v">@temi_lee1</span>
+        </div>
+        <div class="stat">
+          <span class="stat-k">Focus</span>
+          <span class="stat-v">Web3 · Motion · Growth</span>
+        </div>
+        <div class="stat">
+          <span class="stat-k">Style</span>
+          <span class="stat-v">Anime cinematic · Comic threads</span>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <section id="services" class="section services">
+    <div class="section-head">
+      <p class="eyebrow">What I make</p>
+      <h2>Services for protocols & creators</h2>
+    </div>
+    <div class="service-grid">
+      <article class="service">
+        <span class="svc-num">01</span>
+        <h3>Visual threads</h3>
+        <p>Multi-frame narrative explainers. One character, one problem, one protocol — sequenced so the timeline becomes a short film.</p>
+      </article>
+      <article class="service">
+        <span class="svc-num">02</span>
+        <h3>Motion-ready frames</h3>
+        <p>Cinematic stills built to animate: lighting, pose, type hierarchy. Ready for After Effects, CapCut, or on-chain drop teasers.</p>
+      </article>
+      <article class="service">
+        <span class="svc-num">03</span>
+        <h3>Web3 content</h3>
+        <p>Copy that starts with the problem. Digital marketing that sounds like a person, not a whitepaper pasted into a tweet.</p>
+      </article>
+      <article class="service">
+        <span class="svc-num">04</span>
+        <h3>Character IP</h3>
+        <p>A living mascot across GM posts, campaign art and community merch so the brand is recognized before the logo is.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact">
+    <div class="contact-inner">
+      <p class="eyebrow">Available for collabs</p>
+      <h2>Let’s make the idea move.</h2>
+      <p class="lede">Protocols, founders, creators — if you need the story felt, not just posted.</p>
+      <div class="contact-row">
+        <a class="contact-card" href="https://x.com/Isreal_ee" target="_blank" rel="noopener">
+          <span class="cc-label">X / Twitter</span>
+          <span class="cc-value">@Isreal_ee</span>
+        </a>
+        <a class="contact-card" href="https://t.me/temi_lee1" target="_blank" rel="noopener">
+          <span class="cc-label">Telegram</span>
+          <span class="cc-value">@temi_lee1</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <span>© 2026 Israelee · Temi</span>
+    <span>Built as a living portfolio</span>
+  </footer>
+
+  <div class="lightbox" id="lightbox" hidden>
+    <button class="lb-close" aria-label="Close">×</button>
+    <img id="lb-img" alt="" />
+    <p id="lb-cap"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
